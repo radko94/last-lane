@@ -1,0 +1,9 @@
+<mat-drawer-container [hasBackdrop]="hasBackdrop">
+  <mat-drawer [mode]="drawerMode">
+    <h1>Test</h1>
+  </mat-drawer>
+  <mat-drawer-content>
+    <ng-content></ng-content>
+  </mat-drawer-content>
+</mat-drawer-container>
+<ng-container *ngIf="toggleDrawler | async"></ng-container>
