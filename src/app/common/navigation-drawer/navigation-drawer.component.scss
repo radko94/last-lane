@@ -1,5 +1,11 @@
 :host {
-  mat-drawer {
-    width: 30%;
+  mat-drawer-container {
+    height: -webkit-fill-available;
+
+    mat-drawer {
+      width: 30%;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
   }
 }

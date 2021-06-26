@@ -1,0 +1,12 @@
+<article>
+  <h3>{{ navigationSection.label }}</h3>
+  <button
+    mat-flat-button
+    color="primary"
+    *ngFor="let route of navigationSection.childRoutes"
+  >
+    <mat-icon>{{ route.icon }}</mat-icon>
+    <h1>{{ route.name }}</h1>
+  </button>
+</article>
+<mat-divider></mat-divider>

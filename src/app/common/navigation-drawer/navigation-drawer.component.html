@@ -1,6 +1,9 @@
 <mat-drawer-container [hasBackdrop]="hasBackdrop">
   <mat-drawer [mode]="drawerMode">
-    <h1>Test</h1>
+    <app-navigation-section
+      *ngFor="let section of navigationSections"
+      [navigationSection]="section"
+    ></app-navigation-section>
   </mat-drawer>
   <mat-drawer-content>
     <ng-content></ng-content>
