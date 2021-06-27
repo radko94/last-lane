@@ -1,0 +1,31 @@
+<nav mat-tab-nav-bar color="primary" class="mat-elevation-z5">
+  <a mat-tab-link (click)="navigateTo(navigations.HOME)">
+    <mat-icon>edit</mat-icon>
+    <h3>Home</h3>
+  </a>
+  <a mat-tab-link (click)="navigateTo(navigations.MOST_VIEWED_THREADS)">
+    <mat-icon>edit</mat-icon>
+    <h3>Most viewed threads</h3>
+  </a>
+  <a mat-tab-link (click)="navigateTo(navigations.MOST_LIKED_POSTS)">
+    <mat-icon>edit</mat-icon>
+    <h3>Most liked posts</h3>
+  </a>
+  <a mat-tab-link (click)="navigateTo(navigations.HOT_TOPICS)">
+    <mat-icon>edit</mat-icon>
+    <h3>Hot topics</h3>
+  </a>
+  <a mat-tab-link (click)="navigateTo(navigations.GOLD_THREADS)">
+    <mat-icon>edit</mat-icon>
+    <h3>Gold threads</h3>
+  </a>
+  <a mat-tab-link (click)="navigateTo(navigations.NOTABLE_THREADS)">
+    <mat-icon>edit</mat-icon>
+    <h3>Notable threads</h3>
+  </a>
+  <a mat-tab-link (click)="navigateTo(navigations.NEW_POST)">
+    <mat-icon>edit</mat-icon>
+    <h3>Post new topic</h3>
+  </a>
+</nav>
+<router-outlet></router-outlet>

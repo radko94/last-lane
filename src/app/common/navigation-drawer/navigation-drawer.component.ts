@@ -50,60 +50,25 @@ export class NavigationDrawerComponent implements OnInit, AfterViewInit {
         ],
       },
       {
-        label: 'Forums',
-        childRoutes: [
-          {
-            icon: 'edit',
-            name: 'Post new topic',
-            navigationTo: '#',
-          },
-          {
-            icon: 'assignment',
-            name: 'Active posts / threads',
-            navigationTo: '#',
-          },
-          {
-            icon: 'assignment',
-            name: 'Gold threads',
-            navigationTo: '#',
-          },
-          {
-            icon: 'assignment',
-            name: 'Notable threads',
-            navigationTo: '#',
-          },
-        ],
-      },
-      {
-        label: 'Whats new',
+        label: 'Main pages',
         childRoutes: [
           {
             icon: 'login',
-            name: 'New posts',
+            name: 'Forums',
             navigationTo: '#',
           },
           {
             icon: 'assignment',
-            name: 'Trending posts',
-            navigationTo: '#',
-          },
-        ],
-      },
-      {
-        label: 'About Us',
-        childRoutes: [
-          {
-            icon: 'login',
-            name: 'New posts',
+            name: 'Whats new',
             navigationTo: '#',
           },
           {
             icon: 'assignment',
-            name: 'Trending posts',
+            name: 'About Us',
             navigationTo: '#',
           },
         ],
-      },
+      }
     ];
   }
 

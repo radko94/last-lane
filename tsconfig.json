@@ -20,7 +20,8 @@
       "@environments/*": ["src/environments/*"],
       "@header/*": ["src/app/common/header/*"],
       "@common-store-actions/*": ["src/app/common/store-actions/*"],
-      "@navigationDrawer/*": ["src/app/common/navigation-drawer/*"]
+      "@navigationDrawer/*": ["src/app/common/navigation-drawer/*"],
+      "@community/*": ["src/app/community/*"]
     }
   },
   "angularCompilerOptions": {
