@@ -1,0 +1,8 @@
+<section>
+  <h1>{{ header }}</h1>
+  <mat-selection-list role="list" [multiple]="false">
+    <mat-list-option role="listitem" *ngFor="let navigation of navigations">{{
+      navigation.name
+    }}</mat-list-option>
+  </mat-selection-list>
+</section>

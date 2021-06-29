@@ -1,1 +1,15 @@
-<p>community-home works!</p>
+<app-threads-table></app-threads-table>
+<app-fast-navigation-list
+  [header]="ongoingConversationsHeader"
+  [navigations]="ongoingConversationsNavigations"
+></app-fast-navigation-list>
+<ng-container *ngFor="let category of nodesCategories">
+  <app-nodes-category-picker
+    [nodesCategory]="category"
+  ></app-nodes-category-picker>
+</ng-container>
+<app-fast-navigation-list
+  [header]="insidersConversationsHeader"
+  [navigations]="insidersConversationsNavigations"
+></app-fast-navigation-list>
+<app-threads-table></app-threads-table>

@@ -1,0 +1,15 @@
+:host {
+  h1 {
+    font-size: 40px;
+  }
+  mat-selection-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    mat-list-option {
+      flex-basis: 20%;
+      text-align: center;
+      text-decoration: underline;
+    }
+  }
+}

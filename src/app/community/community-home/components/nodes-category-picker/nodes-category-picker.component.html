@@ -1,0 +1,20 @@
+<section>
+  <h1>{{ nodesCategory.title }}</h1>
+  <div>
+    <ng-container *ngFor="let node of nodesCategory.nodes">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>{{ node.title }}</mat-card-title>
+          <mat-card-subtitle>{{ node.subtitle }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <h3>Threads: {{ node.threadCount }}</h3>
+          <h3>Messages: {{ node.messageCount }}</h3>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>See more</button>
+        </mat-card-actions>
+      </mat-card>
+    </ng-container>
+  </div>
+</section>
